@@ -30,7 +30,7 @@ export class Profile extends React.Component {
     let name;
     let bio;
     let friends;
-
+    //set temp loading value
     if (isLoading) {
       name = "Loading...";
       bio = "Please wait...";
